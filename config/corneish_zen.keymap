@@ -8,7 +8,7 @@
 #define NAVEDIT 3
 
 &caps_word {
-    continue-list = <UNDERSCORE MINUS BACKSPACE DELETE>
+    continue-list = <UNDERSCORE MINUS BACKSPACE DELETE>;
 };
 
 / {
@@ -56,6 +56,7 @@
    &trans &mt LGUI X &mt LCTRL Y &mt LALT P  &mt LSHFT U &kp LC(R)    &kp H    &kp J    &kp K    &kp L     &kp V     &trans
    &trans &kp K_CUT  &kp K_COPY  &kp K_PASTE &kp K_UNDO  &kp K_REDO   &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp END   &trans
                                  &kp ESC     &kp I       &kp TAB      &kp RET  &kp SPC  &kp BSPC
+                        >;
                 };
         };
 };
