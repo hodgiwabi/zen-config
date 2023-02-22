@@ -44,7 +44,7 @@
                 symbols_layer {
                         label = "SYMBOLS";
                         bindings = <
-   &trans &kp COLON &kp LA(X) &kp STAR &kp AMPS  &kp SEMI          &kp BLSH &kp LBRK &kp CARET &kp RBRK &kp LA(N7)     &trans
+   &trans &kp COLON &kp LA(X) &kp STAR &kp AMPS  &kp SEMI          &kp BLSH &kp LBKT &kp CARET &kp RBKT &kp LA(N7)     &trans
    &trans &kp TILDE &kp QMARK &kp EXCL &kp AT    &kp PLUS          &kp PIPE &kp LPAR &kp DLLR  &kp RPAR &kp LA(T)      &trans
    &trans &kp GRAVE &kp LT    &kp GT   &kp PRCNT &kp LS(LA(N8))    &kp FLSH &kp LBRC &kp LBRC  &kp RBRC &kp LA(LS(N7)) &trans
                     	      &kp ESC  &kp EQUAL &kp TAB           &trans   &kp SPC  &kp BSPC
