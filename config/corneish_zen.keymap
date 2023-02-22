@@ -39,16 +39,16 @@
    &kp FSLH &kp COLON  &kp Y       &kp O      &kp U       &kp MINUS     &kp G     &kp D       &kp N      &kp M       &kp V      &kp UNDER
    &tog 3   &hm LGUI Q &hm LCTRL H &hm LALT E &hm LSHFT A &kp W         &kp C     &hm RSHFT T &hm RALT R &hm RCTRL S &hm RGUI X &caps_word
    &tog 2   &kp J      &kp COMMA   &kp DOT    &kp K       &kp SQT       &kp B     &kp P       &kp L      &kp F       &kp Z      &tog 1
-                                   &kp ESC    &lt 2 I     &lt 1 TAB     &lt 4 RET &lt 2 SPC   &kp BSPC
+                                   &kp ESC    &lt 2 I     &lt 1 TAB     &lt 3 RET &lt 2 SPC   &kp BSPC
                         >;
                 };
 
                 numbers_layer {
                         label = "NUMBERS";
                         bindings = <
-   &trans &kp LBKT &kp D  &kp E &kp F  &kp RBKT &kp KP_MULTIPLY  &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_MINUS &trans
-   &trans &kp LPAR &kp A  &kp B &kp C  &kp RPAR &kp KP_DIVIDE    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_PLUS &trans
-   &trans &kp LBRC &kp LT &kp G &kp GT &kp RBRC &kp KP_COMMA     &kp KP_N7 &kp KP_N7 &kp KP_N9 &kp KP_DOT &trans
+   &trans &kp LBKT &kp D  &kp E &kp F  &kp RBKT   &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_MINUS &trans
+   &trans &kp LPAR &kp A  &kp B &kp C  &kp RPAR   &kp KP_DIVIDE   &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_PLUS &trans
+   &trans &kp LBRC &kp LT &kp G &kp GT &kp RBRC   &kp KP_COMMA    &kp KP_N7 &kp KP_N7 &kp KP_N9 &kp KP_DOT &trans
                                     &kp KP_N0 &kp EQUAL &trans          &kp RET   &kp SPC   &kp DEL
                         >;
                 };
@@ -65,10 +65,10 @@
                 navedit_layer {
                         label = "NAVEDIT";
                         bindings = <
-   &trans &trans     &trans      &trans      &trans      &trans       &trans   &trans   &trans   &trans    &kp HOME  &trans
-   &trans &hm LGUI X &hm LCTRL Y &hm LALT P  &hm LSHFT U &kp LC(R)    &kp H    &kp J    &kp K    &kp L     &kp V     &trans
-   &trans &kp K_CUT  &kp K_COPY  &kp K_PASTE &kp K_UNDO  &kp K_REDO   &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp END   &trans
-                                 &kp ESC     &kp I       &kp TAB      &trans   &kp SPC  &kp BSPC
+   &trans &trans     &trans      &trans      &trans      &trans       &kp HOME &trans   &trans   &trans   &trans     &trans
+   &trans &hm LGUI X &hm LCTRL Y &hm LALT P  &hm LSHFT U &kp LC(R)    &kp END  &kp LEFT &kp DOWN &kp UP   &kp RIGHT  &trans
+   &trans &kp K_CUT  &kp K_COPY  &kp K_PASTE &kp K_UNDO  &kp K_REDO   &kp V    &kp H    &kp J    &kp K    &kp L      &trans
+                                &kp ESC     &kp I       &kp TAB      &trans   &kp SPC  &kp BSPC
                         >;
                 };
         };
