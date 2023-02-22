@@ -48,7 +48,7 @@
                         bindings = <
    &trans &kp LBKT &kp D  &kp E &kp F  &kp RBKT   &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_MINUS &trans
    &trans &kp LPAR &kp A  &kp B &kp C  &kp RPAR   &kp KP_DIVIDE   &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_PLUS &trans
-   &trans &kp LBRC &kp LT &kp G &kp GT &kp RBRC   &kp KP_COMMA    &kp KP_N7 &kp KP_N7 &kp KP_N9 &kp KP_DOT &trans
+   &trans &kp LBRC &kp LT &kp G &kp GT &kp RBRC   &kp KP_COMMA    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_DOT &trans
                                     &kp KP_N0 &kp EQUAL &trans          &kp RET   &kp SPC   &kp DEL
                         >;
                 };
