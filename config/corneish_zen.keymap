@@ -25,7 +25,7 @@
                         label = "DEFAULT";
                         bindings = <
    &kp FSLH &kp COLON  &kp Y       &kp O      &kp U       &kp MINUS     &kp G     &kp D       &kp N      &kp M       &kp V      &kp UNDER
-   &tog 3   &mt LGUI Q &mt LCTRL H &mt LALT E &mt LSHFT A &kp W         &kp C     &mt RSHFT T &mt RALT R &mt RCTRL S &mt RGUI X &caps_word
+   &tog 3   &ht_tp LGUI Q &ht_tp LCTRL H &ht_tp LALT E &ht_tp LSHFT A &kp W         &kp C     &ht_tp RSHFT T &ht_tp RALT R &ht_tp RCTRL S &ht_tp RGUI X &caps_word
    &tog 2   &kp J      &kp COMMA   &kp DOT    &kp K       &kp SQT       &kp B     &kp P       &kp L      &kp F       &kp Z      &tog 1
                                    &kp ESC    &lt 2 I     &lt 1 TAB     &lt 4 RET &lt 2 SPC   &kp BSPC
                         >;
@@ -54,7 +54,7 @@
                         label = "NAVEDIT";
                         bindings = <
    &trans &trans     &trans      &trans      &trans      &trans       &trans   &trans   &trans   &trans    &kp HOME  &trans
-   &trans &mt LGUI X &mt LCTRL Y &mt LALT P  &mt LSHFT U &kp LC(R)    &kp H    &kp J    &kp K    &kp L     &kp V     &trans
+   &trans &ht_tp LGUI X &ht_tp LCTRL Y &ht_tp LALT P  &ht_tp LSHFT U &kp LC(R)    &kp H    &kp J    &kp K    &kp L     &kp V     &trans
    &trans &kp K_CUT  &kp K_COPY  &kp K_PASTE &kp K_UNDO  &kp K_REDO   &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp END   &trans
                                  &kp ESC     &kp I       &kp TAB      &kp RET  &kp SPC  &kp BSPC
                         >;
