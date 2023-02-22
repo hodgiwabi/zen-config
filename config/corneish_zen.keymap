@@ -14,7 +14,6 @@
 / {
   chosen {
     zmk,matrix_transform = &default_transform;
-    //zmk,matrix_transform = &five_column_transform;
   };
 };
 
@@ -26,22 +25,22 @@
                         label = "DEFAULT";
                         bindings = <
    &kp FSLH &kp COLON  &kp Y       &kp O      &kp U       &kp MINUS     &kp G     &kp D       &kp N      &kp M       &kp V      &kp UNDER
-   &mo 3    &mt LGUI Q &mt LCTRL H &mt LALT E &mt LSHFT A &kp W         &kp C     &mt RSHFT T &mt RALT R &mt RCTRL S &mt RGUI X &caps_word
+   &tog 3   &mt LGUI Q &mt LCTRL H &mt LALT E &mt LSHFT A &kp W         &kp C     &mt RSHFT T &mt RALT R &mt RCTRL S &mt RGUI X &caps_word
    &tog 2   &kp J      &kp COMMA   &kp DOT    &kp K       &kp SQT       &kp B     &kp P       &kp L      &kp F       &kp Z      &tog 1
                                    &kp ESC    &lt 2 I     &lt 1 TAB     &lt 4 RET &lt 2 SPC   &kp BSPC
                         >;
                 };
-                raise_layer {
+                numbers_layer {
                         label = "NUMBERS";
                         bindings = <
    &trans &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_MINUS    &kp LBRK &kp D  &kp E &kp F  &kp RBRK &trans
    &trans &kp KP_DIVIDE   &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_PLUS     &kp LPAR &kp A  &kp B &kp C  &kp RPAR &trans
    &trans &kp KP_COMMA    &kp KP_N7 &kp KP_N7 &kp KP_N9 &kp KP_DOT      &kp LBRC &kp LT &kp G &kp GT &kp RBRC &trans
-                                  &kp KP_N0 &kp EQUAL &trans            &kp RET   &kp SPC   &kp DEL
+                                    &kp KP_N0 &kp EQUAL &trans          &kp RET   &kp SPC   &kp DEL
                         >;
                 };
 
-                raise_layer {
+                symbols_layer {
                         label = "SYMBOLS";
                         bindings = <
    &trans &kp COLON &kp LA(X) &kp STAR &kp AMPS  &kp SEMI          &kp BLSH &kp LBRK &kp CARET &kp RBRK &kp LA(N7)     &trans
@@ -50,7 +49,7 @@
                     	      &kp DEL  &kp EQUAL &kp TAB           &trans   &kp SPC  &kp BSPC
                         >;
                 };
-                raise_layer {
+                navedit_layer {
                         label = "NAVEDIT";
                         bindings = <
    &trans &trans     &trans      &trans      &trans      &trans       &trans   &trans   &trans   &trans    &kp HOME  &trans
