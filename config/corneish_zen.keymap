@@ -36,7 +36,7 @@
                 default_layer {
                         label = "DEFAULT";
                         bindings = <
-   &kp FSLH &kp COLON  &kp Y       &kp O      &kp U       &kp MINUS     &kp G     &kp D       &kp N      &kp M       &kp V      &kp UNDER
+   &kp AT   &kp COLON  &kp Y       &kp O      &kp U       &kp MINUS     &kp G     &kp D       &kp N      &kp M       &kp V      &kp UNDER
    &tog 3   &hm LGUI Q &hm LCTRL H &hm LALT E &hm LSHFT A &kp W         &kp C     &hm RSHFT T &hm RALT R &hm RCTRL S &hm RGUI X &caps_word
    &tog 2   &kp J      &kp COMMA   &kp DOT    &kp K       &kp SQT       &kp B     &kp P       &kp L      &kp F       &kp Z      &tog 1
                                    &kp ESC    &lt 2 I     &lt 1 TAB     &lt 3 RET &lt 2 SPC   &kp BSPC
@@ -57,7 +57,7 @@
                         label = "SYMBOLS";
                         bindings = <
    &trans &kp COLON &kp LA(X) &kp STAR &kp AMPS  &kp SEMI          &kp BSLH &kp LBKT &kp CARET &kp RBKT &kp LA(N7)     &trans
-   &trans &kp TILDE &kp QMARK &kp EXCL &kp AT    &kp PLUS          &kp PIPE &kp LPAR &kp DLLR  &kp RPAR &kp LA(T)      &trans
+   &trans &kp TILDE &kp QMARK &kp EXCL &kp FSLH  &kp PLUS          &kp PIPE &kp LPAR &kp DLLR  &kp RPAR &kp LA(T)      &trans
    &trans &kp GRAVE &kp LT    &kp GT   &kp PRCNT &kp LS(LA(N8))    &kp FSLH &kp LBRC &kp HASH  &kp RBRC &kp LA(LS(N7)) &trans
                     	      &kp ESC  &kp EQUAL &kp TAB           &trans   &kp SPC  &kp BSPC
                         >;
